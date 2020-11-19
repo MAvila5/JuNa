@@ -1,0 +1,84 @@
+@import url("https://use.typekit.net/dzz6nif.css");
+
+/* ------------------------------------ Body and Headings - Gradient Style from https://css-tricks.com/css3-gradients/ --- */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: suburban, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-image:#1e5896;
+}
+
+h1,h2,h3,h4 {
+    color: #fafafa;
+    text-shadow: 0 5px 25px rgba(0, 0, 0, 1);
+}
+
+/* ------------------------------------ HR Style From https://css-tricks.com/examples/hrs/ - by Dan Eden --- */
+
+.hr-style {
+    border: 0;
+    height: 3px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.jumbotron {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 725px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border-bottom-left-radius: 3.5%;
+    border-bottom-right-radius: 3.5%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+}
+
+.jumbotron-index {
+    background-image: url(../images/juna1_9.25.20.jpg);
+}
+
+.jumbo-overlay { /* --- Code from: https://stackoverflow.com/questions/34702477/add-a-dark-overlay-to-background-image --- */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    border-bottom-left-radius: 3.5%;
+    border-bottom-right-radius: 3.5%;
+    border-bottom: 2px solid #1e5896;
+}
+
+.jumbo-intro {
+    position: relative;
+    z-index: 2;
+}
+
+.jumbotron img {
+    margin-top: 350px;
+    width: 400px;
+}
+
+
+#intro-text {
+    margin: 10px 0 40px 0;
+    padding: 0;
+    color: #187bcd;
+}
+
+#intro-text h2 {
+    font-size: 30pt;
+    padding: 25px 25px 25px 25px;
+}
+
+.intro {
+    margin: 10px 10px 20px 10px;
+}

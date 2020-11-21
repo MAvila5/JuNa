@@ -8,77 +8,101 @@ body {
   font-family: suburban, sans-serif;
   font-style: normal;
   font-weight: 400;
-  background-image:#1e5896;
+  background-color: #e1e3e4;
 }
 
-h1,h2,h3,h4 {
-    color: #fafafa;
-    text-shadow: 0 5px 25px rgba(0, 0, 0, 1);
+h1,
+h2,
+h3,
+h4 {
+  color: #1668ff;
+  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 /* ------------------------------------ HR Style From https://css-tricks.com/examples/hrs/ - by Dan Eden --- */
 
 .hr-style {
-    border: 0;
-    height: 3px;
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border: 0;
+  height: 3px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.hr-style2 {
+  border: 0;
+  height: 3px;
+  border-top: 1px solid rgba(22, 231, 221, 0.705);
+  border-bottom: 1px solid rgba(187, 190, 214, 0.1);
+}
 
 .jumbotron {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 725px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    border-bottom-left-radius: 3.5%;
-    border-bottom-right-radius: 3.5%;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 725px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  border-bottom-left-radius: 3.5%;
+  border-bottom-right-radius: 3.5%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
 }
 
 .jumbotron-index {
-    background-image: url(../images/juna1_9.25.20.jpg);
+  background-image: url(../images/juna1_9.25.20.jpg);
 }
 
-.jumbo-overlay { /* --- Code from: https://stackoverflow.com/questions/34702477/add-a-dark-overlay-to-background-image --- */
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: inherit;
-    background-color: rgba(0, 0, 0, 0.3);
-    z-index: 1;
-    border-bottom-left-radius: 3.5%;
-    border-bottom-right-radius: 3.5%;
-    border-bottom: 2px solid #1e5896;
+.jumbo-overlay {
+  /* --- Code from: https://stackoverflow.com/questions/34702477/add-a-dark-overlay-to-background-image --- */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  border-bottom-left-radius: 3.5%;
+  border-bottom-right-radius: 3.5%;
+  border-bottom: 2px solid #1e5896;
 }
 
 .jumbo-intro {
-    position: relative;
-    z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 
 .jumbotron img {
-    margin-top: 350px;
-    width: 400px;
+  margin-top: 350px;
+  width: 400px;
 }
 
-
 #intro-text {
-    margin: 10px 0 40px 0;
-    padding: 0;
-    color: #187bcd;
+  margin: 10px 0 40px 0;
+  padding: 0;
+  color: #152c3f;
 }
 
 #intro-text h2 {
-    font-size: 30pt;
-    padding: 25px 25px 25px 25px;
+  font-size: 30pt;
+  padding: 25px 25px 25px 25px;
+}
+
+#blog {
+  margin: 10px 0 40px 0;
+  padding: 0;
+  color: #152c3f;
+}
+
+#blog h2 {
+  font-size: 30pt;
+  padding: 25px 25px 25px 25px;
+}
+
+#blog small {
+  font-size: 12px;
 }
 
 .intro {
-    margin: 10px 10px 20px 10px;
+  margin: 10px 10px 20px 10px;
 }
